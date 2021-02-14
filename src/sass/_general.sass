@@ -1,0 +1,489 @@
+.header
+    background-color: #ffffff
+    padding: 20px 0 20px 0
+    &__blocks
+        display: flex
+        flex-direction: row
+        justify-content: center
+    &__block
+        display: flex
+        flex-direction: row
+        justify-content: center
+        margin-right: 21px
+    &__img
+        margin-right: 11px
+    &__title
+        color: #242424
+        font-size: 14px
+        font-weight: 700
+    &__connection
+        font-weight: 300
+        line-height: 18px
+        font-size: 12px
+
+.carousel
+    &__inner
+        div
+            img
+                height: 700px
+
+.slick-prev, .slick-next  
+        position: absolute
+        left: 47%
+        bottom: 49px
+        transform: translateY(-50%)
+        border: none
+        background-color: transparent
+        z-index: 1
+.slick-next  
+        position: absolute
+        left: 54.4%
+
+.slick-dots
+    list-style: none
+    display: flex
+    flex-direction: row
+    justify-content: center
+    button
+        width: 13px
+        height: 13px
+        margin-right: 3px
+        font-size: 0
+        padding: 0
+        border-radius: 50%
+        border: 2px solid #ffffff
+        background-color: transparent
+        position: relative
+        bottom: 68px
+    &:active
+        background-color: white
+
+.main
+    &_hamburger
+        display: none
+    &__logo
+        position: absolute
+        top: 124px
+        left: 211px
+    &_menu
+        list-style: none
+        display: flex
+        flex-direction: row
+        position: absolute
+        top: 157px
+        right: 180px
+        &_item
+            margin-right: 44px
+            font-size: 13px
+            font-weight: 700
+            line-height: 26px
+            &:hover
+                -webkit-transform: scale(1.2)
+                -ms-transform: scale(1.2)
+                transform: scale(1.2)
+                border: none
+                transition-duration: .2s
+        &_link
+            color: #ffffff
+            &:hover
+                color: #ffffff
+                text-decoration: none
+    &__more
+        position: absolute
+        top: 350px
+        left: 211px
+        &_title
+            color: #ffffff
+            font-size: 42px
+            font-weight: 400
+            line-height: 48px
+            margin-bottom: 27px
+        &_subtitle
+            color: #ffffff
+            font-weight: 300
+            line-height: 30px
+            font-size: 24px
+            margin-bottom: 39px
+            span
+                font-weight: 400   
+
+.button
+    &__btn
+        width: 241px
+        height: 60px
+        box-shadow: 0 0 7px rgba(0, 0, 0, 0.07)
+        background-color: #00c2f0
+        border: 0
+        color: #ffffff
+        font-size: 16px
+        font-weight: 700
+        border-radius: 4px
+        text-transform: uppercase
+        &:hover
+            box-shadow: 1px 1px #068daf , 2px 2px  #068daf, 3px 3px #068daf , 4px 4px #068daf , 5px 5px #068daf , 6px 6px #068daf , 7px 7px #068daf 
+            -webkit-transform: translateX(-7px)
+            transform: translateX(-7px)
+            transition-duration: .2s
+
+.with
+    padding: 79px 0 81px 0
+    &__img
+        text-align: center
+        margin: 50px 0 33px 0
+    &__text
+        color: #393939
+        font-size: 48px
+        font-weight: 700
+        line-height: 30.04px
+        text-align: center
+        margin-bottom: 37px
+
+.question
+    &__block
+        width: 100%
+        height: 255px
+        border: 1px solid #ececec
+        background-image: url(../img/question.png)
+        margin: 0 auto
+        margin-bottom: 32px
+    &__img
+        text-align: center
+    &__text
+        color: #393939
+        font-size: 18px
+        font-weight: 300
+        line-height: 26px
+        text-align: center
+    
+.true
+    &__block
+        width: 360px
+        height: 255px
+        border: 1px solid #ececec
+        background-image: url(../img/true.png)
+        margin: 0 auto
+        margin-bottom: 32px
+    &__img
+        text-align: center
+    &__text
+        color: #393939
+        font-size: 18px
+        font-weight: 300
+        line-height: 26px
+        text-align: center
+
+.decisions
+    background-image: url(../img/bacground-2.png)
+    height: 889px
+    padding: 79px 0 61px 0
+    &__title
+        color: #ffffff
+        font-size: 30px
+        font-weight: 400
+        line-height: 35.99px
+        text-align: center
+        margin-bottom: 32px
+    &__tabs
+        list-style-type: none
+        display: flex
+        flex-direction: row
+        justify-content: center
+        width: 1028px
+        height: 71px
+        border: 1px solid #ffffff
+        margin-bottom: 35px
+    &__tab
+        color: #ffffff
+        font-size: 14px
+        font-weight: 400
+        line-height: 25.99px
+        cursor: pointer
+        margin: 25px
+        padding-right: 28px
+        border-right: 1px solid #7d807f
+        &:last-child
+            border-right: none
+        &:hover
+            -webkit-transform: scale(1.2)
+            -ms-transform: scale(1.2)
+            transform: scale(1.2)
+            transition-duration: .2s
+        &_active
+            color: #00c2f0
+            font-weight: 700
+            
+    &__content
+        display: none
+        text-align: center
+        &_active
+            display: block
+        &__item
+        
+.advantages
+    padding: 81px 0 180px 0
+    &__title
+        color: #393939
+        font-size: 30px
+        font-weight: 900
+        line-height: 35.99px
+        text-align: center
+        margin-bottom: 44px
+    &__blocks
+        display: flex
+        flex-wrap: wrap
+        justify-content: center
+    &__block-1
+        background-image: url(../img/5-layers.png)
+        width: 540px
+        height: 355px
+        padding-top: 143px
+    &__block-2
+        background-image: url(../img/intelect.png)
+        width: 540px
+        height: 355px
+        padding-top: 143px
+    &__block-3
+        background-image: url(../img/world.png)
+        width: 540px
+        height: 355px
+        padding-top: 143px
+    &__block-4
+        background-image: url(../img/phone.png)
+        width: 540px
+        height: 355px
+        padding-top: 143px
+    &__block-5
+        background-image: url(../img/alive.png)
+        width: 540px
+        height: 355px
+        padding-top: 143px
+    &__block-6
+        background-image: url(../img/start.png)
+        width: 540px
+        height: 355px
+        padding-top: 143px
+    &__text
+        color: #ffffff
+        font-size: 23px
+        font-weight: 400
+        line-height: 26px
+        text-align: center
+
+.data
+    &__title
+        text-align: center
+        color: #ffffff
+        font-size: 30px
+        font-weight: 900
+        line-height: 35.99px
+        margin-bottom: 80px
+    &__line
+        display: flex
+        flex-direction: row
+        margin-top: 55px
+        margin: 0 auto
+    &__left
+        text-align: right
+        margin-right: 149px
+        &__title
+            color: #ffffff
+            font-size: 30px
+            font-weight: 900
+            line-height: 22px
+            margin-bottom: 20px
+        &__subtitle
+            color: #ffffff
+            font-size: 18px
+            font-weight: 300
+            line-height: 26px
+    &__right
+        &__title
+            text-align: left
+            color: #ffffff
+            font-size: 30px
+            font-weight: 900
+            line-height: 22px
+            margin-bottom: 20px
+        &__subtitle
+            color: #ffffff
+            font-size: 18px
+            font-weight: 300
+            line-height: 26px
+            text-align: left
+.background
+    display: flex
+    flex-direction: row
+    position: relative
+    bottom: 295px
+    width: 100%
+    z-index: -2
+    &__img
+        img
+            position: relative
+            width: 100%
+            z-index: -1
+    
+.connection
+    padding-bottom: 80px
+    &__img
+        text-align: center
+        position: relative
+        bottom: 183px
+    &__title
+        color: #393939
+        font-size: 30px
+        font-weight: 900
+        line-height: 36px
+        text-align: center
+    &__button
+        width: 241px
+        height: 60px
+        box-shadow: 0 0 7px rgba(0, 0, 0, 0.07)
+        background-color: #00c2f0
+        border: none
+        border-radius: 5px
+        display: block
+        margin: 0 auto
+        color: #ffffff
+        font-size: 16px
+        font-weight: 700
+        line-height: 30px
+        text-transform: uppercase
+        margin-top: 30px
+        &:hover
+            box-shadow: 1px 1px #068daf , 2px 2px  #068daf, 3px 3px #068daf , 4px 4px #068daf , 5px 5px #068daf , 6px 6px #068daf , 7px 7px #068daf 
+            -webkit-transform: translateX(-7px)
+            transform: translateX(-7px)
+            transition-duration: .2s
+
+.footer
+    padding: 49px 0 40px 0
+    background-color: #0082a1
+    &__block-1
+        margin-right: 83px
+    &__block-3
+        margin-right: 86px
+    &__blocks
+        display: flex
+        flex-direction: row
+    &__duo-1
+        display: flex
+        flex-direction: row
+        margin-right: 73px
+    &__duo-2
+        display: flex
+        flex-direction: row
+    &__block
+        &__subtitle
+            font-size: 16px
+            font-weight: 700
+            color: #ffffff
+            line-height: 19px
+        &__text
+            display: block
+            font-size: 14px
+            font-weight: 300
+            line-height: 19px
+            color: #ffffff
+            &:hover
+                color: #ffffff
+        &__img
+            margin: 18px 0 23px
+    &__line
+        height: 1px
+        opacity: 0.3
+        color: #ffffff
+        margin: 44px 0 36px
+    &__last-text
+        color: #ffffff
+        font-size: 13px
+        font-weight: 300
+        line-height: 17px
+        text-align: center
+
+.pageup 
+    display: none
+    position: fixed
+    bottom: 40px
+    right: 40px
+    width: 40px
+    height: 40px
+    img 
+        width: 100%
+
+.overlay 
+    display: none
+    position: fixed
+    width: 100%
+    height: 100%
+    top: 0
+    background-color: rgba(0,0,0, .56)
+
+.modal 
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    width: 380px
+    min-height: 400px
+    background-color: #f2f2f2
+    padding: 38px 40px 40px 40px
+    &__form
+        margin-top: 18px
+        input
+            width: 268px
+            height: 45px
+            border: 1px solid rgba(0, 0, 0, 0.21)
+            background-color: #ffffff
+            border-radius: 25px 
+            padding: 0 20px
+            margin-bottom: 10px
+    &__btn
+        margin-top: 20px
+        width: 210px
+        height: 49px
+        background-color: #00c2f0
+        color: #ffffff
+        font-family: "Roboto", sans-serif
+        font-size: 12px
+        font-weight: 400
+        line-height: 22.04px
+        text-align: center
+        text-transform: uppercase
+        border-radius: 25px
+        border: none
+        &:hover
+            box-shadow: 1px 1px #34a7c4, 2px 2px #34a7c4, 3px 3px #34a7c4, 4px 4px #34a7c4, 5px 5px #34a7c4, 6px 6px #34a7c4, 7px 7px #34a7c4
+            -webkit-transform: translateX(-7px)
+            transform: translateX(-7px)
+            transition-duration: .2s
+        
+    &__close 
+        position: absolute
+        top: 0
+        right: -40px
+        font-size: 41px
+        line-height: 21px
+        color: #00c2f0
+        cursor: pointer
+        &:hover
+            -webkit-transform: scale(1.2)
+            -ms-transform: scale(1.2)
+            transform: scale(1.2)
+            border: none
+            transition-duration: .2s
+    &__subtitle 
+        color: #0d0d0d
+        font-size: 18px
+        font-weight: 700
+        text-align: center
+    &__descr 
+        color: #0d0d0d
+        font-size: 14px
+        font-weight: 500
+        text-align: center
+    &_mini
+        min-height: 140px
+
+#consultation, #thanks 
+    display: none

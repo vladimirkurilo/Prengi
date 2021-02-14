@@ -1,0 +1,291 @@
+@media (max-width: 1200px)
+    .header
+        &__blocks
+            flex-wrap: wrap
+        &__block
+            margin-bottom: 10px
+    .main
+        &__logo
+            top: 185px
+            left: 398px
+        &_menu
+            top: 273px
+    .slick-prev
+        left: 46%
+    .slick-next
+        left: 56%
+    .decisions
+        &__tabs
+            width: 100%
+        &__tab
+            padding-right: 0px
+            border-right: none
+    .data
+        &__left
+            &__subtitle
+                br
+                    display: none
+        &__right
+            &__subtitle
+                br
+                    display: none
+    .background
+        bottom: 259px
+    
+
+@media (max-width: 991px)
+    .main
+        &_menu
+            right: 61px
+        &__logo
+            left: 44%
+    .slick-prev
+        left: 45%
+    .slick-next
+        left: 57%
+    .question
+        &__block
+            width: 360px
+    .true
+        &__block
+            width: 360px
+    .decisions
+        &__content
+            img
+                width: 100%
+        &__tab
+            margin: 22px 22px 0 0 
+            font-size: 13px
+
+    .background
+        bottom: 226px
+    .data
+        &__left
+            &__title
+                margin-bottom: 10px
+                line-height: 25px
+        &__right
+            &__title
+                margin-bottom: 10px
+                line-height: 25px
+                br
+                    display: none
+        &__line
+            margin-top: 20px
+        &__title
+            margin-bottom: 0px
+            br
+                display: none
+    .connection
+        &__img
+            bottom: 140px
+    .footer__block-1
+        br
+            display: none
+
+@media (max-width: 767px)
+    .main
+        &__logo
+            top: 243px
+            left: 40%
+        &_menu
+            right: 0px
+            top: 325px
+            &_item
+                font-size: 11px
+        &__more
+            top: 383px
+            left: 70px
+
+    .slick-prev
+        left: 43%
+    .slick-next
+        left: 60%
+    .with
+        padding-top: 50px
+    .decisions
+        padding-top: 45px
+        &__title
+            br
+                display: none
+        &__tab
+                margin: 14px 14px 0 0
+    .data
+        &__title
+            font-size: 25px
+        &__line
+            margin-top: 4px
+        &__left
+            margin-right: 100px
+            &__subtitle
+                font-size: 14px
+                line-height: 19px
+            &__title
+                margin-bottom: 5px
+                line-height: 22px
+                font-size: 25px
+        &__right
+            &__subtitle
+                font-size: 14px
+                line-height: 19px
+            &__title
+                margin-bottom: 5px
+                line-height: 22px
+                font-size: 25px
+    .background
+        bottom: 160px
+    .connection
+        &__img
+            bottom: 90px
+    .footer
+        &__blocks
+            flex-direction: column
+        &__duo-2
+            margin-top: 25px
+
+@media (max-width: 575px)
+    .main
+        &_menu
+            position: fixed
+            flex-direction: column
+            justify-content: center
+            align-items: center
+            top: 0
+            left: -100%
+            width: 50%
+            height: 100vh
+            padding: 20px 15px
+            background-color: rgba(0, 194, 240, .8)
+            transition: 0.6s all
+            z-index: 1
+            &_active 
+                left: 0
+            &_item 
+                padding-right: 0
+                border: none
+                margin: 10px 0
+                text-align: center
+            &_link 
+                font-size: 20px
+        &_hamburger
+                display: block
+                transform: translateY(-50%)
+                width: 26px
+                height: 12px
+                margin: 65px 0 0 29px
+                position: absolute
+                top: 360px
+                right: 40px
+                span 
+                    display: block 
+                    height: 2px
+                    width: 100%
+                    background-color: #fff 
+                    margin-bottom: 2px
+                    transition: 0.5s all
+                &_active 
+                    span 
+                        margin-bottom: -2px 
+                        &:nth-child(1)
+                            transform: translateY(3px) rotate(-45deg)
+                        &:nth-child(2)
+                            display: none
+                        &:nth-child(3)
+                            transform: translateY(3px) rotate(45deg)
+        &__logo
+            top: 375px
+        &__more
+            top: 552px
+            left: 44px
+            &_title
+                line-height: 31px
+                margin-bottom: 20px
+                font-size: 29px
+    .slick-prev
+        left: 41%
+    .slick-next
+        left: 64%
+    .decisions
+        &__tab
+            margin: 17px 8px 0 0
+            line-height: 16px
+    .advantages
+        padding-top: 50px
+        padding-bottom: 80px
+    .data
+        &__line
+            display: flex
+            flex-direction: column
+        &__title
+            font-size: 24px
+            margin-bottom: 26px
+        &__left
+            margin-right: 40px
+        &__right
+            margin-top: 160px
+            margin-left: 34px
+    .background
+        bottom: 420px
+        display: flex
+        flex-direction: column
+        &__img
+            img
+                height: 250px
+    .modal
+        &__close
+            top: 15px
+            right: 20px
+
+@media (max-width: 375px)
+    .main
+        &__logo
+            left: 27%
+    .slick-prev
+        left: 38%
+    .slick-next
+        left: 68%
+    .question
+        &__block
+            width: 100%
+    .true
+        &__block
+            width: 100%
+    .decisions
+        &__tabs
+            height: 147px
+            flex-wrap: wrap
+        &__tab
+            margin: 13px 36px 0 0
+    .data
+        &__right
+            margin-top: 76px
+        &__title
+            font-size: 18px
+            line-height: 16.99px
+    .background
+        bottom: 374px
+        &__img
+            img
+                height: 192px
+    .connection
+        &__img
+            bottom: 150px
+    .footer
+        &__duo-1
+            flex-direction: column
+            margin-right: 0px
+        &__duo-2
+            flex-direction: column
+        &__block
+            &__text
+                br
+                    display: none
+        &__block-2
+            margin-top: 10px
+        &__block-4
+            margin-top: 10px
+    .modal
+        &__close
+            top: 13px
+            right: 33px
+        
